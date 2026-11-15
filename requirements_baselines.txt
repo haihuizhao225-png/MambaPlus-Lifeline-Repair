@@ -1,0 +1,9 @@
+# Install a CUDA-compatible torch for your RTX card first.
+# Native MambaTab/Mambular regressors provided by mambular.
+mambular
+numpy
+pandas
+scikit-learn
+transformers
+openpyxl
+safetensors

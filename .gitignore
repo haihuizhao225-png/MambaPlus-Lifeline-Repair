@@ -1,0 +1,34 @@
+# Python / notebooks / environments
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.env.*
+.idea/
+.vscode/
+# Private research data and exports
+*.csv
+!example_synthetic_data.csv
+*.xlsx
+*.xls
+*.xlsm
+*.parquet
+*.sql
+# Weights, BERT cache, runs and logs
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+bert_embedding_cache/
+results_mambaplus/
+results_baselines/
+results*/
+wandb/
+runs/
+*.log
+# Local packaging
+*.zip
+.DS_Store
+Thumbs.db
